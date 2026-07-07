@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+      font-family: "Be Vietnam Pro", sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    background: linear-gradient(90deg, #3a0184, #962DE7);
+    padding: 20px 20px;
+}
+
+.nav-content{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ width: 100%;
+}
+
+.nav-content ul{
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+}
+
+.nav-content ul li{
+    list-style: none;
+}
+
+.nav-content ul li a{
+    color: #000000;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    transition: 0.3s;
+}
+
+.nav-content ul li a:hover{
+    background: transparent;
+    color: #ffffff;
+}
+
+.hero{
+    padding: 250px 40px 150px;
+    background-color: #000000;
+    color: #ffffff;
+    background-image: url("Images/globe.png");
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(#0000007c, transparent);
+    z-index: 0;
+}
+
+.hero h1{
+    font-size: 3rem;
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+}
+
+.hero-content>button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius:
+        5px;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: .1rem;
+}
+
+.hero-content button:hover{
+    background: #962DE7;
+    color: #ffffff;
+}
+
+.pricing{
+    padding: 100px 40px;
+}
+
+.pricing-title{
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.pricing-content{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.pricing-box{
+    background-color: #ffffff29;
+    padding: 20px;
+    border: 1px solid #ffffff48;
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+.pricing-box:hover{
+    transform: translate(0px, -5px);
+}
+
+.pricing-box-top{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.plan-name{
+    font-size: 1.3rem;
+}
+
+.price{
+    font-size: 2rem;
+}
+
+.price sup{
+    font-size: .7rem;
+}
+
+.price>span{
+    font-size: .7rem;
+}
+
+.caption{
+    font-size: .7rem;
+}
+
+.pricing .current{
+    width: 100%;
+    padding: 5px 20px;
+    border: 1px solid #ffffff46;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 100px;
+    font-size: .8rem;
+}
+
+.pricing button{
+    width: 100%;
+    padding: 5px 20px;
+    border: 1px solid #ffffff46;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 100px;
+    font-size: .8rem;
+}
+
+.feature-btn{
+    background: #48aaff !important;
+    color: #ffffff !important;
+    border-color: #48aaff !important;
+
+}
+
+.pricing button:hover{
+    background-color: #ffffffd3;
+    color: #000000;
+}
+
+
+.pricing ul{
+    padding-left: 10px;
+}
+
+.pricing li{
+    font-size: .8rem;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+
+.pricing-footer{
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+.featured{
+    background: linear-gradient(#274b72, transparent);
+    border: 1px solid #396dab;
+    position: relative;
+}
+
+footer{
+    padding: 20px 40px;
+    background: linear-gradient(90deg, #3a0184, #962DE7);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-content ul{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-content li, .copyright{
+    list-style: none;
+    font-size: .9rem;
+}
+
+.footer-content a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.badge{
+    font-size: .5rem;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border: 1px solid rgba(255, 255, 255, 0.234);
+    background: #ffffff27;
+    padding: 3px 10px;
+    border-radius: 100px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 10px;
+    right: 10px;
+}
