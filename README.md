@@ -1,3 +1,5 @@
+<img src="https://github.com/Shihab-ProDev/landing-page/blob/main/Images/pricing%20section.png" width="100%" />
+
 ## Landing Page
 
 A modern and responsive landing page built from scratch using semantic HTML5 and CSS3.
