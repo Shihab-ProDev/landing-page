@@ -1,28 +1,65 @@
+# Responsive Landing Page
+
+A clean and modern responsive landing page developed from scratch using HTML5 and CSS3. The project demonstrates practical frontend development techniques including semantic markup, responsive layouts, Flexbox, typography, spacing, and visual hierarchy.
+
+## 📸 Screenshot
+
 <img src="https://github.com/Shihab-ProDev/landing-page/blob/main/Images/pricing%20section.png" width="100%" />
 
-## Landing Page
 
-A modern and responsive landing page built from scratch using semantic HTML5 and CSS3.
+## 🛠️ Technologies Used
 
-This project was created as a hands-on frontend development practice project, focusing on responsive layouts, clean UI structure, typography, spacing, positioning, and writing well-organized CSS without relying on JavaScript, frameworks, or UI libraries.
+* HTML5
+* CSS3
+* CSS Flexbox
+* Responsive Web Design
 
-### Key Highlights
+## ✨ Features
 
-* Clean and modern landing page design
-* Fully responsive layout across different screen sizes
-* Semantic HTML5 structure
-* Custom CSS3 styling
-* Responsive navigation and content sections
-* CSS Flexbox for layout and alignment
-* Proper spacing, typography, and visual hierarchy
-* Organized and maintainable CSS
-* Built without JavaScript or CSS frameworks
+* Modern landing page design
+* Fully responsive layout
+* Semantic HTML5 markup
+* Responsive navigation
+* Hero section
+* Content sections
+* Call-to-action sections
+* Custom CSS styling
+* Flexbox-based layouts
+* Responsive typography
+* Mobile, tablet, and desktop support
 
-### 🛠️ Technologies Used
+## 📦 Dependencies
 
-- HTML
-- CSS
+No external dependencies are required.
 
-### Purpose
+The project is built using only **HTML5 and CSS3**, with no frameworks, libraries, or package managers.
 
-This project was built to strengthen my core frontend development skills and gain practical experience creating responsive, visually polished web pages using HTML5 and CSS3.
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Shihab-ProDev/landing-page.git
+```
+
+Navigate to the project:
+
+```bash
+cd landing-page
+```
+
+Open `index.html` in your preferred browser.
+
+No installation or build command is required.
+
+## 🌐 Live Demo
+
+https://shihab-prodev.github.io/landing-page/
+
+## 🔗 Repository
+
+https://github.com/Shihab-ProDev/landing-page
+
+## 📚 Learning Objective
+
+This project was created as a hands-on frontend development practice project to improve my ability to structure web pages with semantic HTML and create responsive, visually polished interfaces using modern CSS techniques.
