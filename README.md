@@ -18,6 +18,11 @@ This project was created as a hands-on frontend development practice project, fo
 * Organized and maintainable CSS
 * Built without JavaScript or CSS frameworks
 
+### 🛠️ Technologies Used
+
+- HTML
+- CSS
+
 ### Purpose
 
 This project was built to strengthen my core frontend development skills and gain practical experience creating responsive, visually polished web pages using HTML5 and CSS3.
